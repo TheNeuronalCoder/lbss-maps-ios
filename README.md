@@ -1,5 +1,5 @@
 # LBSS Maps
-[![preview](https://i.ibb.co/PF0WXFz/lbss-maps-preview.png)]
+![preview](https://i.ibb.co/PF0WXFz/lbss-maps-preview.png)
 
 ## Description
 Get walking directions to anywhere in Lake Braddock Secondary School with LBSS Maps.
