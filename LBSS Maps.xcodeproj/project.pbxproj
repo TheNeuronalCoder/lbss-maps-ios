@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768B3A1A28BD96A7000AB948 /* LBSS_MapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B3A1928BD96A7000AB948 /* LBSS_MapsApp.swift */; };
+		768B3A1C28BD96A7000AB948 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B3A1B28BD96A7000AB948 /* ContentView.swift */; };
+		768B3A1E28BD96A8000AB948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768B3A1D28BD96A8000AB948 /* Assets.xcassets */; };
+		768B3A2128BD96A8000AB948 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768B3A2028BD96A8000AB948 /* Preview Assets.xcassets */; };
+		768B3A2328BD96A8000AB948 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B3A2228BD96A8000AB948 /* Persistence.swift */; };
+		768B3A2628BD96A8000AB948 /* LBSS_Maps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 768B3A2428BD96A8000AB948 /* LBSS_Maps.xcdatamodeld */; };
+		768B3A2D28BD970E000AB948 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B3A2C28BD970E000AB948 /* Home.swift */; };
+		768B3A2F28BD9732000AB948 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B3A2E28BD9732000AB948 /* LocationManager.swift */; };
+		768B3A3128BD9745000AB948 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B3A3028BD9745000AB948 /* Settings.swift */; };
+		768B3A3328BD9751000AB948 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768B3A3228BD9751000AB948 /* API.swift */; };
+		768B3A3D28CEE4EC000AB948 /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 768B3A3A28CEE4EC000AB948 /* Inter-Bold.otf */; };
+		768B3A3E28CEE4EC000AB948 /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 768B3A3B28CEE4EC000AB948 /* Inter-Regular.otf */; };
+		768B3A3F28CEE4EC000AB948 /* Inter-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 768B3A3C28CEE4EC000AB948 /* Inter-ExtraBold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		768B3A1628BD96A7000AB948 /* LBSS Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LBSS Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		768B3A1928BD96A7000AB948 /* LBSS_MapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBSS_MapsApp.swift; sourceTree = "<group>"; };
+		768B3A1B28BD96A7000AB948 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		768B3A1D28BD96A8000AB948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		768B3A2028BD96A8000AB948 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		768B3A2228BD96A8000AB948 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		768B3A2528BD96A8000AB948 /* LBSS_Maps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LBSS_Maps.xcdatamodel; sourceTree = "<group>"; };
+		768B3A2C28BD970E000AB948 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		768B3A2E28BD9732000AB948 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		768B3A3028BD9745000AB948 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		768B3A3228BD9751000AB948 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		768B3A3428BDA9AB000AB948 /* LBSS-Maps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LBSS-Maps-Info.plist"; sourceTree = SOURCE_ROOT; };
+		768B3A3A28CEE4EC000AB948 /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		768B3A3B28CEE4EC000AB948 /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
+		768B3A3C28CEE4EC000AB948 /* Inter-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768B3A1328BD96A7000AB948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768B3A0D28BD96A7000AB948 = {
+			isa = PBXGroup;
+			children = (
+				768B3A1828BD96A7000AB948 /* LBSS Maps */,
+				768B3A1728BD96A7000AB948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		768B3A1728BD96A7000AB948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768B3A1628BD96A7000AB948 /* LBSS Maps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768B3A1828BD96A7000AB948 /* LBSS Maps */ = {
+			isa = PBXGroup;
+			children = (
+				768B3A3928CEE4EC000AB948 /* font */,
+				768B3A3428BDA9AB000AB948 /* LBSS-Maps-Info.plist */,
+				768B3A1928BD96A7000AB948 /* LBSS_MapsApp.swift */,
+				768B3A1B28BD96A7000AB948 /* ContentView.swift */,
+				768B3A1D28BD96A8000AB948 /* Assets.xcassets */,
+				768B3A2228BD96A8000AB948 /* Persistence.swift */,
+				768B3A2428BD96A8000AB948 /* LBSS_Maps.xcdatamodeld */,
+				768B3A1F28BD96A8000AB948 /* Preview Content */,
+				768B3A2C28BD970E000AB948 /* Home.swift */,
+				768B3A2E28BD9732000AB948 /* LocationManager.swift */,
+				768B3A3028BD9745000AB948 /* Settings.swift */,
+				768B3A3228BD9751000AB948 /* API.swift */,
+			);
+			path = "LBSS Maps";
+			sourceTree = "<group>";
+		};
+		768B3A1F28BD96A8000AB948 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				768B3A2028BD96A8000AB948 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		768B3A3928CEE4EC000AB948 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				768B3A3A28CEE4EC000AB948 /* Inter-Bold.otf */,
+				768B3A3B28CEE4EC000AB948 /* Inter-Regular.otf */,
+				768B3A3C28CEE4EC000AB948 /* Inter-ExtraBold.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768B3A1528BD96A7000AB948 /* LBSS Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768B3A2928BD96A8000AB948 /* Build configuration list for PBXNativeTarget "LBSS Maps" */;
+			buildPhases = (
+				768B3A1228BD96A7000AB948 /* Sources */,
+				768B3A1328BD96A7000AB948 /* Frameworks */,
+				768B3A1428BD96A7000AB948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LBSS Maps";
+			productName = "LBSS Maps";
+			productReference = 768B3A1628BD96A7000AB948 /* LBSS Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768B3A0E28BD96A7000AB948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					768B3A1528BD96A7000AB948 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 768B3A1128BD96A7000AB948 /* Build configuration list for PBXProject "LBSS Maps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768B3A0D28BD96A7000AB948;
+			productRefGroup = 768B3A1728BD96A7000AB948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768B3A1528BD96A7000AB948 /* LBSS Maps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768B3A1428BD96A7000AB948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768B3A3F28CEE4EC000AB948 /* Inter-ExtraBold.otf in Resources */,
+				768B3A2128BD96A8000AB948 /* Preview Assets.xcassets in Resources */,
+				768B3A3E28CEE4EC000AB948 /* Inter-Regular.otf in Resources */,
+				768B3A1E28BD96A8000AB948 /* Assets.xcassets in Resources */,
+				768B3A3D28CEE4EC000AB948 /* Inter-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768B3A1228BD96A7000AB948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768B3A2328BD96A8000AB948 /* Persistence.swift in Sources */,
+				768B3A1C28BD96A7000AB948 /* ContentView.swift in Sources */,
+				768B3A2F28BD9732000AB948 /* LocationManager.swift in Sources */,
+				768B3A2D28BD970E000AB948 /* Home.swift in Sources */,
+				768B3A3128BD9745000AB948 /* Settings.swift in Sources */,
+				768B3A2628BD96A8000AB948 /* LBSS_Maps.xcdatamodeld in Sources */,
+				768B3A3328BD9751000AB948 /* API.swift in Sources */,
+				768B3A1A28BD96A7000AB948 /* LBSS_MapsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		768B3A2728BD96A8000AB948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		768B3A2828BD96A8000AB948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768B3A2A28BD96A8000AB948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LBSS Maps/Preview Content\"";
+				DEVELOPMENT_TEAM = 7N7A45974Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LBSS-Maps-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LBSS Maps";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Your location is needed to find where you are in the school.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed to find where you are in the school.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theneuronalcoder.LBSSMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		768B3A2B28BD96A8000AB948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LBSS Maps/Preview Content\"";
+				DEVELOPMENT_TEAM = 7N7A45974Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LBSS-Maps-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LBSS Maps";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Your location is needed to find where you are in the school.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed to find where you are in the school.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theneuronalcoder.LBSSMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768B3A1128BD96A7000AB948 /* Build configuration list for PBXProject "LBSS Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768B3A2728BD96A8000AB948 /* Debug */,
+				768B3A2828BD96A8000AB948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768B3A2928BD96A8000AB948 /* Build configuration list for PBXNativeTarget "LBSS Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768B3A2A28BD96A8000AB948 /* Debug */,
+				768B3A2B28BD96A8000AB948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		768B3A2428BD96A8000AB948 /* LBSS_Maps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				768B3A2528BD96A8000AB948 /* LBSS_Maps.xcdatamodel */,
+			);
+			currentVersion = 768B3A2528BD96A8000AB948 /* LBSS_Maps.xcdatamodel */;
+			path = LBSS_Maps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 768B3A0E28BD96A7000AB948 /* Project object */;
+}
