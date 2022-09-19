@@ -12,4 +12,4 @@ I scanned physical paper maps of Lake Braddock Secondary School and created this
 - Backend: Javascript (Node + Express)
 
 ## Author
-I, Menelik Eyasu, developed the backend, website, and iOS app for LBSS Maps.
+I, Menelik Eyasu, developed the backend and iOS app for LBSS Maps.
